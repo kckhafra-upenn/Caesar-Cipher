@@ -28,6 +28,6 @@ def decrypt(key,ciphertext):
         #lower case
         else:
              plaintext += chr((ord(letter) - key -97) % 26 + 97)
-    return plaintext
+    return "abc"
 
 
